@@ -4,7 +4,7 @@ title: "실행 중인 프로세스 리스트(Process List)가져오기"
 excerpt: "실행 중인 Process List를 가져와서 Process ID와 Process Name을 stl map에 저장하여 리턴 해주는 함수입니다."
 date: 2018-04-13 13:49:00
 categories: [C/C++]
-tag: [C++, ProcessList]
+tags: [C++, ProcessList]
 comments: true
 ---
 
