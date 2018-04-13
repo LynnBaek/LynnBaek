@@ -1,5 +1,5 @@
 ---
-layout: poset
+layout: post
 title: "Welcome to Lynn's log!"
 date: 2018-04-13 11:08:00
 categories: [tutorial]
