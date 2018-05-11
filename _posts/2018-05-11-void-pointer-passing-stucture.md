@@ -12,10 +12,6 @@ comments: true
 
 
 
-### void*에 구조체 넘기기
-
-
-
 ```c++
 #include <stdio.h>
                                                                                 
