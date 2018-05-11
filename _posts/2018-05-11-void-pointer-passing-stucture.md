@@ -8,7 +8,7 @@ tags: [C++, void*, structure]
 comments: true
 ---
 
-##### void*에 구조체를 넘기는 방법입니다.
+void*에 구조체를 넘기는 방법입니다.
 
 
 
