@@ -20,10 +20,9 @@ $sudo apt-get install libcurl4-openssl-dev
 
 ### Code::Blocks에서 라이브러리 링크
 
-![1523855825290](F:\Git\lynn-blog\_posts\img\1523855825290.png)
+링크 옵션에 다음과 같이 옵션을 준다.
 
+```
+-lcurl
+```
 
-
- Linker settings -> Other linker options에 라이브러리 경로 지정
-
-![1523855961998](C:\Users\seolin\AppData\Local\Temp\1523855961998.png)
