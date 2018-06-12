@@ -41,6 +41,11 @@ comments: true
   </article>
 </div>
 
+<div>
+  {{ content }}
+  {% include disqus.html %}
+</div>
+
 <div class="share-buttons">
   <h6>Share on: </h6>
   <ul>
@@ -62,11 +67,8 @@ comments: true
   </ul>
 </div><!-- end share-buttons -->
 
-<div>
-  {{ content }}
-  {% include disqus.html %}
-</div>
-<!--{% if site.owner.disqus-shortname and page.comments == true %}
-<div id="disqus_thread"></div>
+
+{% if site.owner.disqus-shortname and page.comments == true %}
+<!--<div id="disqus_thread"></div>
 {% include disqus.html %}
 {% endif %}-->
