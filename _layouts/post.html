@@ -30,7 +30,6 @@ comments: true
       <span class="post-date">
         {{ page.date | date: "%-d %b %Y" | upcase }}
       </span>
-      •
       {% include read_time.html %}
     </span>
 
@@ -64,9 +63,9 @@ comments: true
 </div><!-- end share-buttons -->
 
 
-{% if site.owner.disqus-shortname and page.comments == true %}
+<!--{% if site.owner.disqus-shortname and page.comments == true %}
 
-<!--<div>
+<div>
   {{ content }}
   {% include disqus.html %}
 </div>
