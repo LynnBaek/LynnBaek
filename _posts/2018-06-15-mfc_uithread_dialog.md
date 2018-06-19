@@ -26,17 +26,19 @@ CWinThread Class를 활용한다.
 
 1. ##### Class Wizard를 사용하여 CWinThread를 Base Class로하는 Class(CDlgThread)를 정의한다.
 
-​    Header File(DlgThread.h)에는 `DECLARE_DYNCREATE(CDlgThread);`
-    Source File(DlgThread.cpp)에는 `IMPLEMENT_DYNCREATE(CDlgThread ,CWinThread)`
-    ClassWizard에 의해 자동으로 추가됩니다.
+   ​    Header File(DlgThread.h)에는 `DECLARE_DYNCREATE(CDlgThread);`
+       Source File(DlgThread.cpp)에는 `IMPLEMENT_DYNCREATE(CDlgThread ,CWinThread)`
+       ClassWizard에 의해 자동으로 추가됩니다.
 
 2. ##### DlgThread.h를 수정한다.
 
 3. ##### protected로 정의된 Constructor DlgThread()와 Deconstructor ~DlgThread()를 public으로 바꾸어 준다. (이유는 해보면 안다)
 
-      public:
-           DlgThread();
-           ~DlgThread();
+   ```
+     public:
+          DlgThread();
+          ~DlgThread();
+   ```
 
 4. ##### Dialog 변수를 정의 한다.
 
