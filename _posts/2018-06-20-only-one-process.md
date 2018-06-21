@@ -10,7 +10,7 @@ comments: true
 
 MFC 프로그램의 중복 실행을 방지하는 방법입니다.
 
-Dialog base 프로젝트도 [프로젝트명].cpp 파일의 InitInstance() 에 코드를 삽입해줍니다.
+Dialog base 프로젝트도 [프로젝트명].cpp 파일의 InitInstance() 에 코드를 삽입해 줍니다.
 
 
 

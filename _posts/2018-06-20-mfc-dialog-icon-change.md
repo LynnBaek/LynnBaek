@@ -2,7 +2,7 @@
 layout: post
 title: "MFC 다이얼로그 아이콘 변경 및 추가"
 excerpt: "MFC 다이얼로그의 아이콘을 변경하고 추가하는 방법입니다."
-date: 2018-06-20 13:25:00
+date: 2018-06-20 13:26:00
 categories: [MFC]
 tags: [MFC, Dialog]
 comments: true
