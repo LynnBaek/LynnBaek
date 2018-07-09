@@ -8,7 +8,7 @@ tags: [MFC, Dialog]
 comments: true
 ---
 
-[http://blog.naver.com/PostView.nhn?blogId=aladdin07&logNo=150074142378&categoryNo=8&viewDate=¤tPage=1&listtype=0](http://blog.naver.com/PostView.nhn?blogId=aladdin07&logNo=150074142378&categoryNo=8&viewDate=¤tPage=1&listtype=0)
+[http://aladdin07.blog.me/150074142378](http://aladdin07.blog.me/150074142378)
 
 
 
