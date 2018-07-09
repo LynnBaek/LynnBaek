@@ -34,13 +34,13 @@ comments: true
 
 응용 프로그램은 보통 한 개의 Thread로 구성되며 이 Thread가 응용프로그램 진행에 관련된 여러 가지 작업을 수행한다. 그 중에서도 가장 기본이 되는 것이 각종 메시지들에 대한 처리이다. 따라서 프로그램의 Main Thread는 메시지 처리 루프를 형성하게 되는데 이 메시지 루프의 종료 조건은 WM_QUIT이라는 메시지가 전달될 때까지 이다. 그리고 Main Thread는 메시지 루프를 종료한 직후, 응용 프로그램의 종료 루틴을 진행하게 된다. 결과적으로 PostQuitMessage는 프로그램의 Main Thread에게 WM_QUIT메시지를 전달하는 역할을 하는 함수임을 알 수 있다. 따라서 아래와 같이 사용해도 똑 같은 결과를 얻을 수 있다. 
 
-`AfxGetMainWnd()->PosMessage(WM_QUIT); `
+`AfxGetMainWnd()->PostMessage(WM_QUIT); `
 
 
 
 MFC는 프로그래머의 편의를 위하여 Application Wizard를 제공한다. 이 기능을 이용하여 MDI 또는 SDI 윈도우를 만들었을 때 만들어지는 여러 가지 소스와 자원 중에 메뉴 자원을 보면 Exit라는 항목이 존재하는데 우리가 특별한 코드를 작성하지 않아도 메뉴에서 이 항목을 선택하면 응용 프로그램이 종료한다. 즉, MFC가 기본적으로 이 메시지를 처리하고 있음을 알 수 있다. Exit 메뉴 항목의 속성을 보면 Command ID가 ID_APP_EXIT로 되어 있다. 그리고 메뉴 선택 시 발생하는 메시지는 WM_COMMAND이므로 아래와 같이 구성하여 Exit 항목을 선택한 것과 동일한 결과를 얻을 수 있다. 
 
-`AfxGetMainWnd()->PosMessage(WM_COMMAND,ID_APP_EXIT)`
+`AfxGetMainWnd()->PostMessage(WM_COMMAND,ID_APP_EXIT);`
 
 사실 위 코드를 C++의 Default Parameter 기법을 이용하여 마지막 인자가 생략되어 있다. 따라서 좀더 정확하게 코드를 고쳐 쓰면 아래와 같다. 
 
