@@ -8,7 +8,7 @@ tags: [MFC, TrayIcon, 트레이아이콘]
 comments: true
 ---
 
-> 출처 :  http://cpueblo.com/programming/api/contents/197.html 
+> 출처 :  [http://cpueblo.com/programming/api/contents/197.html](http://cpueblo.com/programming/api/contents/197.html )
 
 
 

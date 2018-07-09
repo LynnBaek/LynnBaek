@@ -12,5 +12,5 @@ Visual C++ 버전별 재배포 패키지 런타임 다운로드에 관련하여 
 
 
 
-http://zypper.tistory.com/85
+[http://zypper.tistory.com/85](http://zypper.tistory.com/85)
 

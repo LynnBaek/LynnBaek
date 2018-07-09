@@ -8,7 +8,7 @@ tags: [MFC, Dialog]
 comments: true
 ---
 
-> 출처 :  https://blog.naver.com/ziralist/8325535
+> 출처 :  [https://blog.naver.com/ziralist/8325535](https://blog.naver.com/ziralist/8325535)
 
 
 
