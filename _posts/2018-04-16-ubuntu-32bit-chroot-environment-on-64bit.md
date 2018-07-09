@@ -11,3 +11,10 @@ comments: true
 
 
 [http://blog.northfield.ws/32bit-chroot-environment-on-64bit-ubuntu/](http://blog.northfield.ws/32bit-chroot-environment-on-64bit-ubuntu/)
+
+
+
+
+
+
+
