@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[스크랩]MFC에서 UI Thread를 이용한 Dialog 호출 방법"
-excerpt: "http://blog.naver.com/PostView.nhn?blogId=aladdin07&logNo=150074142378&categoryNo=8&viewDate=&currentPage=1&listtype=0"
+excerpt: "MFC에서 UI Thread를 이용한 Dialog 호출 방법입니다."
 date: 2018-06-15 15:49:00
 categories: [MFC]
 tags: [MFC, Dialog]
